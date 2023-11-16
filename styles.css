@@ -6,6 +6,26 @@
     font-family: 'Poppins', sans-serif;
     color: #0b005e;
 }
+.congratulations.active {
+    width: 100%;
+    text-align: center;
+}
+.congratulations.active h1{
+    font-size: 4rem;
+    color: rgb(3, 3, 40);
+}
+.congratulations.active button{
+    padding: 1%;
+    min-height: 50px;
+    margin: 2%;
+    background-color: #0b005e;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
 
 body{
     display: flex;
@@ -14,6 +34,10 @@ body{
     background-image: url("Background.jpg");
     background-size: cover;
     min-height: 100vh;
+}
+
+.login-box.active{
+    display: none !important;
 }
 
 .login-box,.reg-box{
