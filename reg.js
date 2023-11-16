@@ -7,7 +7,7 @@ reg_btn.addEventListener("click",() => {
     if (reg_email.value === "" || reg_pass.value === "" || reg_user.value === "") {
         alert("Fill the missing field");
     } else{
-        window.location.href = "/index.html";
+        window.location.href = "./index.html";
     }
         
 });
