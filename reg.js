@@ -11,3 +11,12 @@ reg_btn.addEventListener("click",() => {
     }
         
 });
+
+function togglePass() {
+    let x = document.querySelector(".reg-pass");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}

@@ -1,7 +1,5 @@
 var login_email = document.querySelector(".login-email");
-
 var login_pass = document.querySelector(".login-pass");
-
 var log_btn = document.querySelector(".login-btn");
 
 
@@ -15,3 +13,11 @@ log_btn.addEventListener("click",() => {
     }
 });
 
+function togglePass() {
+    let x = document.querySelector(".login-pass");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
